@@ -16,6 +16,13 @@ body {
     width: 400px;
     background-color: #ecf0f1;
     border-radius: 5px;
+    box-shadow: 5px 5px 30px #999;
+}
+
+.header {
+    font-family: 'Pacifico', cursive;
+    color: rgba(26, 188, 156, 0.6);
+    font-size: 35px;
 }
 
 #task-form {
@@ -24,21 +31,53 @@ body {
 
 #task-form input {
     padding: 3px 15px 3px 5px;
+    outline: none;
 }
 
-#submitBtn {
+.btn {
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+#submit-btn {
     padding: 3px 8px;
     margin-left: 2px;
+    background-color: rgba(26, 188, 156, 0.6);
+    color: #ecf0f1;
+    border-radius: 5px; 
 }
 
-.listContent {
+.delete-btn {
+    float: right;
+    padding: 2px 4px;
+    background-color: transparent;
+    color: rgba(26, 188, 156, 0.6);
+}
+
+/*.listContent {
     margin-left: 20px;
+}*/
+
+#list {
+    list-style-type: none;
 }
 
 #list li {
     padding: 5px;
+    cursor: pointer;
 }
 
 #list li:nth-child(even) {
     background-color: #d9dcde;
+}
+
+#list li input {
+    background-color: transparent;
+}
+
+.task-done {
+    text-decoration: line-through;
 }
