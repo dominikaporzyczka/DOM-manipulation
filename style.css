@@ -79,6 +79,7 @@ body {
 }
 
 .task {
+    display: block;
     width: 343px;
 }
 
