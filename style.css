@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcde;
     font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 13px;
 }
 
 .content {
@@ -21,6 +22,23 @@ body {
     margin: 20px 0;
 }
 
+#task-form input {
+    padding: 3px 15px 3px 5px;
+}
+
+#submitBtn {
+    padding: 3px 8px;
+    margin-left: 2px;
+}
+
 .listContent {
     margin-left: 20px;
+}
+
+#list li {
+    padding: 5px;
+}
+
+#list li:nth-child(even) {
+    background-color: #d9dcde;
 }
