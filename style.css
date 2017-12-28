@@ -78,6 +78,11 @@ body {
     background-color: transparent;
 }
 
+.task {
+    width: 343px;
+}
+
 .task-done {
     text-decoration: line-through;
+    color: #999;
 }
