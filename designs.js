@@ -3,7 +3,7 @@ $( document ).ready(function() {
     $('#task-form')
         .submit( function(event) {
             var inputVal = $('input[name=newTask]').val();
-            $('#list').append('<li><button class="delete-btn btn">x</button><span class="task">' + inputVal + '</span></li>');
+            $('#list').append('<li><button class="delete-btn btn"><i class="fas fa-times"></i></button><span class="task">' + inputVal + '</span></li>');
             $(this).trigger('reset');
 
             event.preventDefault();
