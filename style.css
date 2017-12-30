@@ -61,19 +61,19 @@ body {
     margin-left: 20px;
 }*/
 
-#list {
+.list {
     list-style-type: none;
 }
 
-#list li {
+.list li {
     cursor: pointer;
 }
 
-#list li:nth-child(even) {
+.list li:nth-child(even) {
     background-color: #d9dcde;
 }
 
-#list li input {
+.list li input {
     background-color: transparent;
 }
 
