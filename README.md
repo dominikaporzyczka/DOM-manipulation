@@ -18,7 +18,7 @@ A simple application that represents the basic 'to do list'
 https://dominikaporzyczka.github.io/DOM-manipulation/append.html
 
 
-## Technogies
+## Technologies
 
 * HTML
 * CSS3
